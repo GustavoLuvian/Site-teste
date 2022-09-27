@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+body {
+    --color-primary: #009750;
+    --color-primary-dark: #007f67;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-sucess: #4bb544;
+    --border-radius: 20px;
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 18%;
+    height: 100%;
+    margin: 200px;
+    padding: 100px;
+    background: rgba(131, 128, 128, 0.75);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.form__title {
+    display:flex;
+    margin-top: 500px;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.form__input {
+    border-radius: 4px;
+    margin-top: 12px;
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+
+.form__button {
+    font: 500 1rem 'Quicksand', sans-serif;
+}
+
+.form > *:first-child {
+    margin-top: 0; 
+}
+
+.form > *:last-child {
+    margin-bottom: 0;
+}
+
+
+.form__message {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.form__message--sucess {
+    color: var(--color-sucess);
+}
+
+.form__input-error-message {
+    margin-top: 8px;
+}
+
+.form__message--error {
+    color: var(--color-error);
+    margin-top: 8px;
+}
+
+.form__button {
+    margin-top: 10px;
+}
+
+.form {
+    margin-top: 70%;
+}
+
+.form__link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
